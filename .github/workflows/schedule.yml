@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Update gist
-        uses: levi-higher/levi-front@master
+        uses: levi-higher/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: 44f80e74ec43e51aad4d254ddf9c21b2
